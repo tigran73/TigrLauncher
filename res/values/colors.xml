@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_top">#FF151019</color>
+    <color name="bg_bottom">#FF000000</color>
+    <color name="card">#FF1D222B</color>
+    <color name="shelf_fill">#14FFFFFF</color>
+    <color name="shelf_stroke">#26FFFFFF</color>
+    <color name="ring">#FFF6F7FA</color>
+    <color name="label">#FFF2F4F8</color>
+    <color name="brand">#FFF2F4F8</color>
+    <color name="counter">#FF7B869A</color>
+    <color name="clock">#FFF2F4F8</color>
+    <color name="hint">#FF7B869A</color>
+</resources>

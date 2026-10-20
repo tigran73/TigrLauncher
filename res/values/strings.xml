@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TigrLauncher</string>
+    <string name="tab_fav">Избранное</string>
+    <string name="tab_tv">ТВ</string>
+    <string name="tab_all">Все</string>
+    <string name="tab_sys">Система</string>
+    <string name="fav_empty">Пусто. Долгое нажатие ОК на плитке добавляет её в этот раздел.</string>
+    <string name="tile_settings">Настройки</string>
+    <string name="tile_tv">ТВ</string>
+    <string name="filter_hint">Фильтр (кнопка MENU)</string>
+    <string name="menu_fav_add">Добавить в избранное</string>
+    <string name="menu_fav_del">Убрать из избранного</string>
+    <string name="menu_details">О приложении</string>
+    <string name="apps_count">Найдено: %1$d</string>
+</resources>

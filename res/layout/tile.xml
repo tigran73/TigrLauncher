@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:clipChildren="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/tile_card"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@drawable/tile_card"
+        android:clipToOutline="true"
+        android:duplicateParentState="true"
+        android:foreground="@drawable/tile_ring">
+
+        <ImageView
+            android:id="@+id/tile_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:focusable="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tile_placeholder" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tile_label"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginTop="3dp"
+        android:alpha="0"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:gravity="top|center"
+        android:maxLines="1"
+        android:textColor="@color/label"
+        android:textSize="12sp" />
+</LinearLayout>

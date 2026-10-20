@@ -1,0 +1,15 @@
+# Артефакты сборки
+build/
+TigrLauncher.apk
+*.idsig
+
+# Ключ подписи не публикуем: у каждого свой
+*.keystore
+*.jks
+
+# Среда разработки
+.idea/
+*.iml
+.gradle/
+local.properties
+.DS_Store
